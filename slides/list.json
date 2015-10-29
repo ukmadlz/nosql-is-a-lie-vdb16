@@ -1,17 +1,17 @@
 [
-  "index.md",
-  {
-    "filename": "notice.md",
-    "attr": {
-      "id": "notice"
-    }
-  },
-  {
-    "filename": "author.md",
-    "attr": {
-      "id": "author"
-    }
-  },
+    "index.md",
+    {
+        "filename": "notice.md",
+        "attr": {
+            "id": "notice"
+        }
+    },
+    {
+        "filename": "author.md",
+        "attr": {
+            "id": "author"
+        }
+    },
     [
         "where-i-work.html",
         {
@@ -43,6 +43,25 @@
         "filename": "blank.md",
         "attr": {
             "data-background": "images/guitar-hero-expert.gif"
+        }
+    },
+    "rant.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/anger-2.gif"
+        }
+    },
+    "nosql.md",
+    "catch-all.md",
+    "not-sql.md",
+    "sql-on-nosql.md",
+    "schemaless.md",
+    "end-rant.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/clooney-be-cool.gif"
         }
     }
 ]
