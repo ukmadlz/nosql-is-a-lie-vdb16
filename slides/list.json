@@ -63,5 +63,15 @@
         "attr": {
             "data-background": "images/clooney-be-cool.gif"
         }
-    }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/science.gif"
+        }
+    },
+    "enter-cap-theorem.md",
+    "consistency-availability-and-partition-tolerance.md",
+    "cap-venn.md",
+    "uncertainty-principle.md"
 ]
