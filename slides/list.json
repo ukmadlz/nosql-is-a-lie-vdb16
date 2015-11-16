@@ -57,6 +57,10 @@
     "not-sql.md",
     "sql-on-nosql.md",
     "schemaless.md",
+    "schema.md",
+    "no-nosql-experts.md",
+    "over-5-types.md",
+    "x-expert.md",
     "end-rant.md",
     {
         "filename": "blank.md",
@@ -72,6 +76,16 @@
     },
     "enter-cap-theorem.md",
     "consistency-availability-and-partition-tolerance.md",
+    "consistent.md",
+    "available.md",
+    "partition-tolerant.md",
     "cap-venn.md",
-    "uncertainty-principle.md"
+    "pick-two.md",
+    "uncertainty-principle.md",
+    "why-is-this-important.md",
+    "history.md",
+    "consistent-available.md",
+    "distributed-systems-and-databases.md",
+    "partition-tolerance-.md",
+    "design-decision.md"
 ]
