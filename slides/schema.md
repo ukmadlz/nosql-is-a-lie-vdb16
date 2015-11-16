@@ -1,3 +1,3 @@
 #  Schema
 
-Because how else do you know what your getting out?
+Because how else do you know what you’re getting out?
