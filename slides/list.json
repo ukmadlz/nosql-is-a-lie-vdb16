@@ -90,5 +90,9 @@
     "design-decision.md",
     "database-types.html",
     "other-database-types.md",
-    "key-value-datastores.md"
+    "key-value-datastores.md",
+    "name-any-examples.md",
+    "popular-key-value-datastores.md",
+    "what-is-a-key-value-datastore.md",
+    "why-use-a-key-value-store.md"
 ]
