@@ -1,1 +1,1 @@
-![CAP Theorem Venn Diagram](/images/CAP.png)
+![CAP Theorem Venn Diagram](images/CAP.png)
