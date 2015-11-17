@@ -102,14 +102,26 @@
         "what-is-a-key-value-datastore.md",
         "why-use-a-key-value-store.md"
     ],
-    ["document-datastores.md",
+    [
+        "document-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-2.gif"
+            }
+        },
+        "popular-document-datastores.md",
+        "what-is-a-document-datastore.md",
+        "why-use-a-document-datastore.md"
+    ],
+    "column-datastores.md",
     {
         "filename": "blank.md",
         "attr": {
-            "data-background": "images/name-that-pokemon-2.gif"
+            "data-background": "images/name-that-pokemon-3.gif"
         }
     },
-    "popular-document-datastores.md",
-    "what-is-a-document-datastore.md",
-    "why-use-a-document-datastore.md"]
+    "popular-column-datastores.md",
+    "what-is-a-column-datastores.md",
+    "why-use-a-column-datastore.md"
 ]
