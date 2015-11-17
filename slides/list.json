@@ -114,7 +114,7 @@
         "what-is-a-document-datastore.md",
         "why-use-a-document-datastore.md"
     ],
-    "column-datastores.md",
+    ["column-datastores.md",
     {
         "filename": "blank.md",
         "attr": {
@@ -123,5 +123,5 @@
     },
     "popular-column-datastores.md",
     "what-is-a-column-datastores.md",
-    "why-use-a-column-datastore.md"
+    "why-use-a-column-datastore.md"]
 ]
