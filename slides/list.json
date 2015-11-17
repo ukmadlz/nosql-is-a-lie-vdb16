@@ -92,13 +92,23 @@
     "other-database-types.md",
     [
         "key-value-datastores.md",
-        "name-any-examples.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-1.gif"
+            }
+        },
         "popular-key-value-datastores.md",
         "what-is-a-key-value-datastore.md",
         "why-use-a-key-value-store.md"
     ],
     ["document-datastores.md",
-    "name-any-examples.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/name-that-pokemon-2.gif"
+        }
+    },
     "popular-document-datastores.md",
     "what-is-a-document-datastore.md",
     "why-use-a-document-datastore.md"]
