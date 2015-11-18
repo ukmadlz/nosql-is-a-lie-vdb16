@@ -95,7 +95,7 @@
         {
             "filename": "blank.md",
             "attr": {
-                "data-background": "images/name-that-pokemon-1.gif"
+                "data-background": "images/name-that-pokemon.jpg"
             }
         },
         "popular-key-value-datastores.md",
@@ -107,21 +107,33 @@
         {
             "filename": "blank.md",
             "attr": {
-                "data-background": "images/name-that-pokemon-2.gif"
+                "data-background": "images/name-that-pokemon-1.gif"
             }
         },
         "popular-document-datastores.md",
         "what-is-a-document-datastore.md",
         "why-use-a-document-datastore.md"
     ],
-    ["column-datastores.md",
+    [
+        "column-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-2.gif"
+            }
+        },
+        "popular-column-datastores.md",
+        "what-is-a-column-datastores.md",
+        "why-use-a-column-datastore.md"
+    ],
+    ["graph-datastores.md",
     {
         "filename": "blank.md",
         "attr": {
             "data-background": "images/name-that-pokemon-3.gif"
         }
     },
-    "popular-column-datastores.md",
-    "what-is-a-column-datastores.md",
-    "why-use-a-column-datastore.md"]
+    "popular-graph-datastores.md",
+    "what-are-graph-datastores.md",
+    "why-use-graph-datastores.md"]
 ]
