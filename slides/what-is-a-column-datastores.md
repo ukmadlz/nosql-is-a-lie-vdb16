@@ -1,4 +1,6 @@
 #  What is a Column Datastore?
 
 note:
-- @TODO Add the notes
+- Does use tables, rows and columns for the storage model
+- Kinda relational
+- However the names and format of columns can change between rows
