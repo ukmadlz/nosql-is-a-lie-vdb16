@@ -138,5 +138,24 @@
         "what-are-graph-datastores.md",
         "why-use-graph-datastores.md"
     ],
-    "what-weve-learnt.html"
+    "what-weve-learnt.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/cat-slide.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/pipboy-thumbs-up.gif"
+        }
+    },
+    "end.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/pub.gif"
+        }
+    }
 ]
