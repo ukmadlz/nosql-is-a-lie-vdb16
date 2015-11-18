@@ -126,14 +126,17 @@
         "what-is-a-column-datastores.md",
         "why-use-a-column-datastore.md"
     ],
-    ["graph-datastores.md",
-    {
-        "filename": "blank.md",
-        "attr": {
-            "data-background": "images/name-that-pokemon-3.gif"
-        }
-    },
-    "popular-graph-datastores.md",
-    "what-are-graph-datastores.md",
-    "why-use-graph-datastores.md"]
+    [
+        "graph-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-3.gif"
+            }
+        },
+        "popular-graph-datastores.md",
+        "what-are-graph-datastores.md",
+        "why-use-graph-datastores.md"
+    ],
+    "what-weve-learnt.html"
 ]
