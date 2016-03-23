@@ -60,6 +60,12 @@
     "schema.md",
     "no-nosql-experts.md",
     "over-5-types.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/gtfo.gif"
+        }
+    },
     "x-expert.md",
     "end-rant.md",
     {

@@ -1,3 +1,3 @@
-#  Over 5 Types
+#  Over 5 Primary Types
 
 So many distinct types of databases
