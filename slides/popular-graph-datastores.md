@@ -1,5 +1,3 @@
 #  Popular Graph Datastores
 
-### TitanDB
-### Neo4j
-### Giraph
+Neo4j, Titan, Giraph, InfiniteGraph, Sparksee, HyperGraphDB, FlockDB, VelocityGraph, InfoGrid, GraphBase
