@@ -42,7 +42,19 @@
     {
         "filename": "blank.md",
         "attr": {
+            "data-background": "images/morning-person.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
             "data-background": "images/guitar-hero-expert.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/opinion.gif"
         }
     },
     "rant.md",
@@ -168,5 +180,13 @@
         "attr": {
             "data-background": "images/pipboy-thumbs-up.gif"
         }
-    }
+    },
+    "end.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/fresh-pot.gif"
+        }
+    },
+    "questions.md"
 ]
