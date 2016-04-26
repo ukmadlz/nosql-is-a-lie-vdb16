@@ -147,7 +147,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:ukmadlz/nosql-is-a-lie-lnug-2016.git'
+                    remote: 'git@github.com:ukmadlz/nosql-is-a-lie-osdc-2016.git'
                     branch: 'gh-pages'
 
 
