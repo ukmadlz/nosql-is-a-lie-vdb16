@@ -1,5 +1,3 @@
 #  Popular Column Datastores
 
-### Cassandra
-### Hbase
-### Accumulo
+Cassandra, HBase, Accumulo, Hypertable, Google Cloud Bigtable, ScyllaDB
