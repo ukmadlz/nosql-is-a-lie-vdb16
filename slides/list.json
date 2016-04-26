@@ -114,6 +114,12 @@
     "database-types.html",
     "other-database-types.md",
     "skipping-multi-model.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/audience-participation.gif"
+        }
+    },
     [
         "key-value-datastores.md",
         {
@@ -175,6 +181,18 @@
         }
     },
     "what-weve-learnt.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/double-claw.jpg"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/hammer-time.gif"
+        }
+    },
     {
         "filename": "blank.md",
         "attr": {
