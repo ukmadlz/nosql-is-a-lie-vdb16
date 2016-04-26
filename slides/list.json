@@ -106,11 +106,14 @@
     "distributed-systems-and-databases.md",
     "partition-tolerance-.md",
     "design-decision.md",
-    ["newsql.md",
-    "google-spanner.md",
-    "cockroachdb.md"],
+    [
+        "newsql.md",
+        "google-spanner.md",
+        "cockroachdb.md"
+    ],
     "database-types.html",
     "other-database-types.md",
+    "skipping-multi-model.md",
     [
         "key-value-datastores.md",
         {
