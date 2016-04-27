@@ -1,3 +1,3 @@
 #  CockroachDB
 
-![CockroachDB](/images/cockroachdb.png)
+![CockroachDB](images/cockroachdb.png)
