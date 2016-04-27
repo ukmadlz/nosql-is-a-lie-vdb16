@@ -128,6 +128,7 @@
                 "data-background": "images/name-that-pokemon.jpg"
             }
         },
+        "key-value-guess.html",
         "popular-key-value-datastores.md",
         "what-is-a-key-value-datastore.md",
         "why-use-a-key-value-store.md"
@@ -140,6 +141,7 @@
                 "data-background": "images/name-that-pokemon-1.gif"
             }
         },
+        "document-guess.html",
         "popular-document-datastores.md",
         "what-is-a-document-datastore.md",
         "why-use-a-document-datastore.md"
@@ -152,6 +154,7 @@
                 "data-background": "images/name-that-pokemon-2.gif"
             }
         },
+        "column-guess.html",
         "popular-column-datastores.md",
         "what-is-a-column-datastores.md",
         "why-use-a-column-datastore.md"
@@ -164,6 +167,7 @@
                 "data-background": "images/name-that-pokemon-3.gif"
             }
         },
+        "graph-guess.html",
         "popular-graph-datastores.md",
         "what-are-graph-datastores.md",
         "why-use-graph-datastores.md"
