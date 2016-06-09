@@ -216,5 +216,12 @@
             "data-background": "images/mic-drop.gif"
         }
     },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/thank-you.gif #000000",
+            "data-background-color": "#000000"
+        }
+    },
     "questions.md"
 ]
