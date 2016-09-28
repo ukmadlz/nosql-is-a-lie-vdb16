@@ -1,0 +1,3 @@
+#  Consistent
+
+In = Out

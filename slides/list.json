@@ -1,0 +1,227 @@
+[
+    "index.md",
+    {
+        "filename": "notice.md",
+        "attr": {
+            "id": "notice"
+        }
+    },
+    {
+        "filename": "author.md",
+        "attr": {
+            "id": "author"
+        }
+    },
+    [
+        "where-i-work.html",
+        {
+            "filename": "what-i-work-on.md",
+            "attr": {
+                "data-background": "#3B4B54"
+            }
+        },
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/monkey-typewriter.gif"
+            }
+        },
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/ponder.gif"
+            }
+        },
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/headdesk.gif"
+            }
+        }
+    ],
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/morning-person.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/guitar-hero-expert.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/opinion.gif"
+        }
+    },
+    "rant.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/anger-1.gif"
+        }
+    },
+    "nosql.md",
+    "catch-all.md",
+    "not-sql.md",
+    "sql-on-nosql.md",
+    "schemaless.md",
+    "schema.md",
+    "no-nosql-experts.md",
+    "over-5-types.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/gtfo.gif"
+        }
+    },
+    "x-expert.md",
+    "end-rant.md",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/clooney-be-cool.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/science.gif"
+        }
+    },
+    "enter-cap-theorem.md",
+    "consistency-availability-and-partition-tolerance.md",
+    "consistent.md",
+    "available.md",
+    "partition-tolerant.md",
+    "cap-venn.md",
+    "pick-two.md",
+    "uncertainty-principle.md",
+    "why-is-this-important.md",
+    "history.md",
+    "consistent-available.md",
+    "distributed-systems-and-databases.md",
+    "partition-tolerance-.md",
+    "design-decision.md",
+    [
+        "newsql.md",
+        "google-spanner.md",
+        "cockroachdb.md"
+    ],
+    "database-types.html",
+    "other-database-types.md",
+    "skipping-multi-model.md",
+    {
+        "filename": "audience-participation.html",
+        "attr": {
+            "data-background": "images/audience-participation.gif"
+        }
+    },
+    [
+        "key-value-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon.jpg"
+            }
+        },
+        "key-value-guess.html",
+        "popular-key-value-datastores.md",
+        "what-is-a-key-value-datastore.md",
+        "why-use-a-key-value-store.md"
+    ],
+    [
+        "document-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-1.gif"
+            }
+        },
+        "document-guess.html",
+        "popular-document-datastores.md",
+        "what-is-a-document-datastore.md",
+        "why-use-a-document-datastore.md"
+    ],
+    [
+        "column-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-2.gif"
+            }
+        },
+        "column-guess.html",
+        "popular-column-datastores.md",
+        "what-is-a-column-datastores.md",
+        "why-use-a-column-datastore.md"
+    ],
+    [
+        "graph-datastores.md",
+        {
+            "filename": "blank.md",
+            "attr": {
+                "data-background": "images/name-that-pokemon-3.gif"
+            }
+        },
+        "graph-guess.html",
+        "popular-graph-datastores.md",
+        "what-are-graph-datastores.md",
+        "why-use-graph-datastores.md"
+    ],
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/exhausted-charmander.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/pokemon-party.gif"
+        }
+    },
+    "what-weve-learnt.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/double-claw.jpg"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/hammer-time.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/cat-slide.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/pipboy-thumbs-up.gif"
+        }
+    },
+    "end.html",
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/mic-drop.gif"
+        }
+    },
+    {
+        "filename": "blank.md",
+        "attr": {
+            "data-background": "images/thank-you.gif #000000",
+            "data-background-color": "#000000"
+        }
+    },
+    "questions.md"
+]

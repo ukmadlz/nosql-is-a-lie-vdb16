@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>NoSQL is a lie</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+
+        <link rel="stylesheet" href="css/cloudant.css" id="theme">
+
+
+        <link rel="stylesheet" href="css/ibm-cds.css" id="theme">
+
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+
+          <header style="width: 90%;">
+            <img src="images/ibm-cds.png" style="float: left;">
+            <h2 style="font-size: 2rem; float: right; margin-top: 0.5em;">
+              <i class="fa fa-twitter"></i><i class="fa fa-github"></i> / ukmadlz
+            </h2>
+          </header>
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section id="notice" data-markdown="slides/notice.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section id="author" data-markdown="slides/author.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/where-i-work.html"></section>
+
+
+                            
+                                
+    <section data-background="#3B4B54" data-markdown="slides/what-i-work-on.md"></section>
+
+
+                            
+                                
+    <section data-background="images/monkey-typewriter.gif" data-markdown="slides/blank.md"></section>
+
+
+                            
+                                
+    <section data-background="images/ponder.gif" data-markdown="slides/blank.md"></section>
+
+
+                            
+                                
+    <section data-background="images/headdesk.gif" data-markdown="slides/blank.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="images/morning-person.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/guitar-hero-expert.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/opinion.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/rant.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/anger-1.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/nosql.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/catch-all.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/not-sql.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/sql-on-nosql.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/schemaless.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/schema.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/no-nosql-experts.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/over-5-types.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/gtfo.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/x-expert.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/end-rant.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/clooney-be-cool.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/science.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/enter-cap-theorem.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/consistency-availability-and-partition-tolerance.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/consistent.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/available.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/partition-tolerant.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/cap-venn.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/pick-two.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/uncertainty-principle.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/why-is-this-important.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/history.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/consistent-available.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/distributed-systems-and-databases.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/partition-tolerance-.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/design-decision.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/newsql.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/google-spanner.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/cockroachdb.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-html="slides/database-types.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/other-database-types.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/skipping-multi-model.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/audience-participation.gif" data-html="slides/audience-participation.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/key-value-datastores.md"></section>
+
+
+                            
+                                
+    <section data-background="images/name-that-pokemon.jpg" data-markdown="slides/blank.md"></section>
+
+
+                            
+                                
+    <section data-html="slides/key-value-guess.html"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/popular-key-value-datastores.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/what-is-a-key-value-datastore.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/why-use-a-key-value-store.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/document-datastores.md"></section>
+
+
+                            
+                                
+    <section data-background="images/name-that-pokemon-1.gif" data-markdown="slides/blank.md"></section>
+
+
+                            
+                                
+    <section data-html="slides/document-guess.html"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/popular-document-datastores.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/what-is-a-document-datastore.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/why-use-a-document-datastore.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/column-datastores.md"></section>
+
+
+                            
+                                
+    <section data-background="images/name-that-pokemon-2.gif" data-markdown="slides/blank.md"></section>
+
+
+                            
+                                
+    <section data-html="slides/column-guess.html"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/popular-column-datastores.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/what-is-a-column-datastores.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/why-use-a-column-datastore.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-markdown="slides/graph-datastores.md"></section>
+
+
+                            
+                                
+    <section data-background="images/name-that-pokemon-3.gif" data-markdown="slides/blank.md"></section>
+
+
+                            
+                                
+    <section data-html="slides/graph-guess.html"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/popular-graph-datastores.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/what-are-graph-datastores.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/why-use-graph-datastores.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="images/exhausted-charmander.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/pokemon-party.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/what-weve-learnt.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/double-claw.jpg" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/hammer-time.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/cat-slide.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/pipboy-thumbs-up.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/end.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/mic-drop.gif" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="images/thank-you.gif #000000" data-background-color="#000000" data-markdown="slides/blank.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/questions.md"></section>
+
+
+                    
+                    
+                
+            </div>
+
+            <footer>
+              © IBM Corporation 2016. All Rights Reserved.
+              <img class="ibm" src="images/ibmpos_blurgb.jpg" />
+            </footer>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                slideNumber: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
