@@ -46,3 +46,6 @@ a {
       font-family: 'FontAwesome';
       font-style: normal;
   }
+.reveal .backgrounds {
+  background: url('../images/home-main-bg.jpg')
+}
