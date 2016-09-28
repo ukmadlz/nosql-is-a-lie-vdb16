@@ -18,6 +18,13 @@ a {
     color: #53049C; }
 
 /*
+    Header & Footer
+  */
+header, footer {
+  z-index: 999;
+}
+
+/*
   Bootstrap Specific
  */
 .navbar {
