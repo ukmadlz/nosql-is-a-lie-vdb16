@@ -179,6 +179,10 @@
             "data-background": "images/exhausted-charmander.gif"
         }
     },
+    "my-use-proof.md",
+    "ambrosia.html",
+    "the-team.html",
+    "ambrosia-architecture.html",
     {
         "filename": "blank.md",
         "attr": {
@@ -224,6 +228,5 @@
             "data-background-color": "#000000"
         }
     },
-    "questions.md",
-    "end.html"
+    "questions.md"
 ]
